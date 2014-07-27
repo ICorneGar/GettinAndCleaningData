@@ -32,7 +32,7 @@ names(Names) <- "Activity"
 names(Subj)<-"Subject"
 TidyData <- cbind(Subj,Names,Data)
 
-##5. CREATING NEW DATASET
+##5. CREATING NEW DATASET WITH THE AVERAGE OF EACH VARIABLE/ACTIVITY/SUBJECT 
 NewData<-as.data.frame(matrix(NA,length(levels(factor(Subj$Subject)))*length(Labels$V1),dim(TidyData)[2]))
 names(NewData) <- names(TidyData)
 cnt<-1
