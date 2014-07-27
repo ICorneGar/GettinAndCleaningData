@@ -1,5 +1,5 @@
 ##Peer assessment coursera getting and cleaning data.
-rm(list=ls()) #cleaning vars
+#rm(list=ls()) #cleaning vars
 cat("\014")  #clear screen
 
 ##1. READING AND JOINING TRAINING AND TESTS DATA SETS.
